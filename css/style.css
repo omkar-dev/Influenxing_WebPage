@@ -1,0 +1,425 @@
+/* Theme Name: Larix - Responsive One Page HTML5 Template
+   Author: MyraStudio
+   Version: 1.0.0
+   File Description: Main CSS file of the template
+*/
+
+/****************************
+*   1  :  Helper            *
+*   2  :  Navbar-custom     *
+*   3  :  Title             *
+*   4  :  Home              *
+*   5  :  Features          *
+*   6  :  SERVICES          *
+*   7  :  Clients           *
+*   8  :  Portfolio         *
+*   9  :  Blog              *
+*   10 :  Team              *
+*   11 :  Pricing           *
+*   12 :  Contact           *
+*   13 :  Footer            *
+*   14 :  Responsive        *
+*****************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #525456;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+p{
+    line-height: 1.8;
+}
+
+
+/*===============================
+         1. Helper
+================================*/
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.btn-custom {
+    font-size: 15px;
+    transition: all 0.4s;
+    color: #fff !important;
+    background: #3864f3;
+}
+
+.btn {
+    padding: 14px 28px;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease;
+}
+
+.btn:hover {
+    transform: translate3d(0,-3px,0);
+}
+
+.f-19 {
+    font-size: 17px;
+}
+
+/*===============================
+       2. Navbar Custom
+=================================*/
+
+.navbar-custom {
+    padding: 15px 0px;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: #525456;
+    font-size: 12px;
+    transition: all 0.5s;
+    letter-spacing: 0.03rem;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.logo {
+    color: #383e44 !important;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo i {
+    color: #3864f3 !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active {
+    color: #3864f3 !important;
+}
+
+
+/*---NAVBAR STICKY---*/
+
+/*==============================
+       3. Title
+================================*/
+
+.title-heading {
+    font-size: 1.5rem;
+}
+
+/*==============================
+        4. Home
+================================*/
+
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/********* DEMO 2 ********/
+
+/*******DEMO 3*******/
+
+/********DEMO 4**********/
+
+/********DEMO 5**********/
+
+/********DEMO 6**********/
+
+.bg-home-half {
+    background-color:#EEF4F8;
+    background-size: cover;
+    background-position: center center;
+    padding: 250px 0px 200px;
+    position: relative;
+}
+
+/************************
+    5. Welcome box
+*************************/
+
+.features-icon {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    border: 2px solid rgba(21, 101, 216, 0.1);
+    border-radius: 15px;
+  }
+  
+  .features-icon i {
+    color: #3864f3 !important;
+    line-height: 54px;
+    font-size: 22px;
+  }
+  
+
+/************************
+   6. SERVICES
+*************************/
+
+/************************
+        7. CLIENTS
+**************************/
+
+.testi-user {
+    max-width: 60px;
+}
+
+.user-review {
+    color: #667482;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.testi-client-name {
+    font-size: 15px;
+    color: #000;
+}
+
+.testi-patients {
+    font-size: 14px;
+    color: #000;
+}
+
+.testi-content {
+    padding: 30px;
+    border-radius: 5px 30px;
+    margin: 10px;
+    background-color: #f8f9fa;
+}
+
+
+/*************************
+        8. PORTFOLIO
+***************************/
+
+/*************************
+      9.  BLOG
+***************************/
+
+.blog-menu img {
+    border-radius: 5px;
+}
+
+.blog-title {
+    font-size: 16px;
+    color: #44464f;
+    margin-top: 20px;
+    display: block;
+
+}
+
+.blog-title:hover {
+    color: #3864f3;
+    transition: all 0.5s
+}
+
+.blog-menu p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.read-btn {
+    font-size: 15px;
+    color: #3864f3;
+    text-decoration: underline !important;
+}
+
+.read-btn:hover {
+    color: #f70033;
+}
+
+
+/***********************
+       10. TEAM
+*************************/
+
+.about-title h2 {
+    line-height: 42px;
+}
+
+.about-title p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.about-title {
+    max-width: 800px;
+}
+
+.about-border-left {
+    border-left: 1px solid #e7e7e7;
+}
+
+/************************
+       11. PRICE
+**************************/
+
+/************************
+       12. CONTACT
+**************************/
+
+.form-control {
+    height: 46px;
+    border: 1px solid #e9e6e6;
+    font-size: 14px;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control:focus {
+    border-color: #3864f3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+/************************
+       13. FOOTER
+*************************/
+
+.footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #818d9c;
+}
+
+.footer-menu h5 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-menu p,
+.footer span {
+    font-size: 13px;
+}
+
+.footer_mdi {
+    font-size: 16px;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 2px;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.footer-menu li a {
+    font-size: 14px;
+    display: inline-block;
+    transition: all 0.5s;
+    line-height: 32px;
+    color: #818d9c!important;
+}
+
+
+/************************
+    14. RESPONSIVE
+**************************/
+
+@media (max-width: 768px) {
+    #content-desktop-only {display: none !important;}
+.contentmobile{
+    display: none !important;
+}
+    .vertical-content {
+        display: inherit;
+    }
+    .navbar-custom {
+        margin-top: 0px;
+        padding: 10px 0px !important;
+        background-color: #000 !important;
+        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+        color: #fff !important;
+    }
+    .navbar-toggler i {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #ffffff;
+    }
+    .navbar-custom>.container {
+        width: 90%;
+    }
+    
+}
