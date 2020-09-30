@@ -78,7 +78,7 @@ p{
     font-size: 15px;
     transition: all 0.4s;
     color: #fff !important;
-    background: #3864f3;
+    background: #630EEA;
 }
 
 .btn {
@@ -93,6 +93,79 @@ p{
 .btn:hover {
     transform: translate3d(0,-3px,0);
 }
+
+.btn-link {
+    padding: 11px;
+text-align: center;
+    width: 255px;
+border: 1px solid #630EEA;
+font-weight: 500;
+
+}
+
+#myBtn {
+    width: 45px;
+    height: 45px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index:30000; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #630EEA; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%;
+    font-size: 18px; /* Increase font size */
+    box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+
+  }
+  
+  #myBtn:hover {
+      
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+#headerPopup{
+    top: -450px;
+    left: 12vw;
+    width:75%;
+    margin:0 auto;
+    position: relative;
+    z-index: 3000;
+  }
+  
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+  }
+   
+#overlayWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  #overlay {
+    opacity: 1;
+    will-change: opacity;
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
 
 .f-19 {
     font-size: 17px;
@@ -135,20 +208,19 @@ p{
     letter-spacing: 2px;
 }
 
-.logo i {
-    color: #3864f3 !important;
-    font-size: 20px;
+.logo img {
     vertical-align: middle;
 }
 
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-    color: #3864f3 !important;
+    color: #313458 !important;
+
 }
 
 
-/*---NAVBAR STICKY---*/
+/*---NAVBAR STICKY---  #e43f52 */
 
 /*==============================
        3. Title
@@ -205,7 +277,7 @@ p{
   }
   
   .features-icon i {
-    color: #3864f3 !important;
+    color: #630EEA !important;
     line-height: 54px;
     font-size: 22px;
   }
@@ -268,7 +340,7 @@ p{
 }
 
 .blog-title:hover {
-    color: #3864f3;
+    color: #630EEA;
     transition: all 0.5s
 }
 
@@ -279,7 +351,7 @@ p{
 
 .read-btn {
     font-size: 15px;
-    color: #3864f3;
+    color: #630EEA;
     text-decoration: underline !important;
 }
 
@@ -329,7 +401,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-    border-color: #3864f3;
+    border-color: #630EEA;
     outline: 0;
     box-shadow: none;
 }
@@ -358,31 +430,6 @@ textarea.form-control {
     font-size: 13px;
 }
 
-.footer_mdi {
-    font-size: 16px;
-    height: 36px;
-    width: 36px;
-    line-height: 36px;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-    margin: 20px 2px;
-}
-
-.facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
-}
-
-.twitter {
-    background-color: #55acee;
-    color: #ffffff;
-}
-
-.google {
-    background-color: #d6492f;
-    color: #ffffff;
-}
 
 .footer-menu li a {
     font-size: 14px;
